@@ -1,0 +1,49 @@
+
+.button{background-color: pink;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+  }
+
+.btn {background-color: black;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 12px;
+
+}
+
+.field-group{
+  text-align: center;
+}
+
+.introduction {
+  background-image: url('../images/back-to-school.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: auto;
+}
+
+body {
+  background-color: #6DFFF8;
+}
+
+h1{
+  color: black;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+}

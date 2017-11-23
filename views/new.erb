@@ -1,0 +1,53 @@
+<form method="post" action="/students">
+
+  <div class="field-group">
+    <label for="first-name-field" class="label">First Name:</label>
+    <div class="field">
+      <input
+        type="text"
+        name="first_name"
+        id="first-name-field"
+        placeholder="First name"
+        required
+      />
+   </div>
+  </div>
+
+  <div class="field-group">
+    <label for="last-name-field" class="label">Last Name:</label>
+    <div class="field">
+      <input
+        type="text"
+        name="last_name"
+        id="last-name-field"
+        placeholder="Last name"
+        required
+      />
+    </div>
+  </div>
+
+  <div class="field-group">
+    <label for="house-selection" class="label">Select house:</label>
+    <div class="field">
+      <select name="house_id" id="house-selection">
+        <option value=1>Tweed</option>
+        <option value=2>Burgh</option>
+        <option value="3">Bearsden</option>
+        <option value="4">Currie</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="field-group">
+    <label for="age-field" class="label">age:</label>
+    <div class="field">
+      <input
+        type="number"
+        name="age"
+        id="age-field"
+      />
+    </div>
+  </div>
+
+  <button class="button">Finalise Student</button>
+</form>

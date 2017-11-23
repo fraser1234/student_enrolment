@@ -1,0 +1,10 @@
+<p>First Name: <%= @student.first_name %></p>
+<p>Last Name: <%= @student.last_name %></p>
+<p>House: <%= @student.house.house_type %></p>
+<p>Age: <%= @student.age %></p>
+<p><a class="button" href="/students/<%= @student.id %>/edit">Edit Student Details</a></p>
+
+<form method="post" action="/students/<%= @student.id %>">
+  <input type="hidden" name="_method" value="delete">
+  <button class="button">Delete Student Profile</button>
+</form>
